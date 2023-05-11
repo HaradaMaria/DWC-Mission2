@@ -4,7 +4,7 @@
 
 <div class="error">
      <% if @edit.errors.any? %>
-       <%= @edit.errors.count %>件のエラーが発生しました。
+       <%= @edit.errors.count %>errors detected
        <ul>
          <% @edit.errors.full_messages.each do |message| %>
          <li><%= message %></li>
